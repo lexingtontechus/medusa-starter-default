@@ -87,5 +87,12 @@
     "coverageDirectory": "./coverage",
     "testEnvironment": "node"
   },
-  "packageManager": "yarn@3.6.4"
+  "overrides": {
+    "@medusajs/admin-ui": {
+      "@medusajs/ui-preset": "^1.1.2"
+    }
+  },
+  "resolutions": {
+    "@medusajs/ui-preset": "^1.1.2"
+  }
 }
